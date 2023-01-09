@@ -1,8 +1,12 @@
-# ferret_images
+# Ferret Images
 
-collection of ferret images
+Collection of ferret images
 
-## layout
+## Contributing
+
+- All contributed images will be transformed to a JPG under 300kb, as standard with [dog.ceo's image collection](https://github.com/jigsawpieces/dog-api-images).
+
+## Layout
 
 `/collection/<uuid>`:
 - `image.json` - metadata for the ferret image
