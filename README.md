@@ -18,7 +18,7 @@ If you want to say anything about the ferret, feel free to leave it in the descr
 
 ### How to contribute (developer)
 
-You can use the `ferret_image_cli` to use an interactive builder for adding ferret images.
+Use the [`ferret_api`](https://github.com/LeoDog896/ferret_api) repository instead. The `ferret_images` repository is available as a submodule that you can contribute to by using the `ferret_image` CLI. More information is available in the other repository.
 
 ## Layout
 
