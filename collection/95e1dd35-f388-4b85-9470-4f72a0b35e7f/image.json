@@ -1,0 +1,12 @@
+{
+  "info": {
+    "name": "Roy",
+    "sex": null,
+    "color": null,
+    "pattern": null,
+    "alt": "An image of a pet ferret."
+  },
+  "author": "Alfredo Gutiérrez",
+  "source": "https://en.wikipedia.org/wiki/File:Ferret_2008.png",
+  "license": "AttributionShareAlike"
+}
