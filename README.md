@@ -11,7 +11,7 @@ Collection of various ferret images for use with the [ferret_api](https://github
 
 ### How to contribute images
 
-Make an issue submission issue: [Ferret Submission Form](https://github.com/LeoDog896/ferret_images/issues/new?assignees=LeoDog896&labels=submission&template=SUBMIT.yml&title=%5BSubmission%5D%3A+).
+Make an issue submission: [Ferret Submission Form](https://github.com/LeoDog896/ferret_images/issues/new?assignees=LeoDog896&labels=submission&template=SUBMIT.yml&title=%5BSubmission%5D%3A+).
 
 ### How to contribute (developer)
 
