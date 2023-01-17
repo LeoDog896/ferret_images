@@ -18,6 +18,14 @@ body:
     validations:
       required: false
   - type: input
+    id: image
+    attributes:
+      label: Ferret Image
+      description: Enter the URL of the image. (No image drop-in yet, sadly)
+      placeholder: Enter URL
+    validations:
+      required: true
+  - type: input
     id: name
     attributes:
       label: Ferret's Name
