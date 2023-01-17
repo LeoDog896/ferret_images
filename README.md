@@ -1,6 +1,6 @@
 # Ferret Images
 
-Collection of ferret images
+Collection of various ferret images for use with the [ferret_api](https://github.com/LeoDog896/ferret_api).
 
 ## Contributing
 
@@ -9,12 +9,9 @@ Collection of ferret images
 - Ensure your photo features one ferret only (although additional ferrets can be in the background)
 - Photos must not represent any human, even human body parts; it's illegal in most states of the world
 
-### How to contribute (not a developer)
+### How to contribute images
 
-First, make a folder with a random UUID: [this website generates them for you](https://leodog896.github.io/doke/uuid).
-
-Then, upload your image to that folder, and rename it to `image.jpg`.
-If you want to say anything about the ferret, feel free to leave it in the description in the PR, and a contributor will transform it into metadata for you.
+Make an issue submission issue: [Ferret Submission Form](https://github.com/LeoDog896/ferret_images/issues/new?assignees=LeoDog896&labels=submission&template=SUBMIT.yml&title=%5BSubmission%5D%3A+).
 
 ### How to contribute (developer)
 
