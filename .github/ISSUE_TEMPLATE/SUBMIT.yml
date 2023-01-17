@@ -1,0 +1,55 @@
+name: Ferret Submission
+description: Submit a ferret
+title: "[Submission]: "
+labels: ["submission"]
+assignees:
+  - LeoDog896
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info? If GitHub works, don't fill this in.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: name
+    attributes:
+      label: Ferret's Name
+      description: If you don't mind, provide the name of the ferret
+      placeholder: Name
+  - type: textarea
+    id: sex
+    attributes:
+      label: Ferret's Sex
+      description: What is the sex of the ferret?
+      placeholder: Name
+  - type: dropdown
+    id: license
+    validations:
+      required: true
+    attributes:
+      label: What license do you want to use? (Commonly used is CC-BY-SA, but CC0 is the least restrictive)
+      options:
+        - Public Domain ((CC0)[https://creativecommons.org/share-your-work/public-domain/cc0/]).
+        - Attribution Required ((CC BY)[https://creativecommons.org/licenses/by/4.0/]).
+        - Attribution + Share-Alike ((CC BY-SA)[https://creativecommons.org/licenses/by-sa/4.0/])
+        - Attribution + No-Derivatives ((CC BY-ND)[https://creativecommons.org/licenses/by-nd/4.0/])
+        - Attribution + Non-Commercial ((CC BY-NC)[https://creativecommons.org/licenses/by-nc/4.0/])
+        - Attribution + Non-Commercial + Share-Alike ((CC BY-NC-SA)[https://creativecommons.org/licenses/by-nc-sa/4.0/])
+        - Attribution + Non-Commercial + No-Derivatives ((CC BY-NC-ND)[https://creativecommons.org/licenses/by-nc-nd/4.0/])
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/LeoDog896/ferret_images/blob/main/CODE_OF_CONDUCT.md) and the license you chose above.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+        - label: I agree to my chosen Creative Commons license above.
+          required: true
