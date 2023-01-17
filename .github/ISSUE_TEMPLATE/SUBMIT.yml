@@ -8,27 +8,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report! Do always remember that if you're submitting an internet photo, **the photo must be under a creative commons license OR in the public domain**.
   - type: input
-    id: contact
+    id: image-source
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info? If GitHub works, don't fill this in.
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+      label: Ferret Image Source
+      description: Enter the source URL of the image.
+      placeholder: Enter Source URL
   - type: input
     id: image
     attributes:
       label: Ferret Image
       description: Enter the URL of the image. (No image drop-in yet, sadly)
-      placeholder: Enter URL
+      placeholder: Enter Image URL
     validations:
       required: true
   - type: input
     id: name
     attributes:
-      label: Ferret's Name
+      label: Ferret's Given Name (by Author)
       description: If you don't mind, provide the name of the ferret
       placeholder: Name
   - type: dropdown
@@ -43,8 +41,12 @@ body:
     validations:
       required: true
     attributes:
-      label: What license do you want to use? (Commonly used is CC-BY-SA, but CC0 is the least restrictive)
+      label: What license do you want to use / does the original source image use?
       description: |
+        The most commonly used is CC-BY-SA, but CC0 is the least restrictive.
+
+        If the image isn't yours, choose the license that the source image abides by.
+
         The following options are:
         - Public Domain ([CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)).
         - Attribution Required ([CC BY](https://creativecommons.org/licenses/by/4.0/)).
@@ -69,5 +71,5 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-        - label: I agree to my chosen Creative Commons license above.
+        - label: I agree to license my image Creative Commons license above, or if the image isn't mine, that I have checked that the image is licensed under what I have chosen above..
           required: true
