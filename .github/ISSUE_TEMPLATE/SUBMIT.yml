@@ -17,13 +17,13 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: name
     attributes:
       label: Ferret's Name
       description: If you don't mind, provide the name of the ferret
       placeholder: Name
-  - type: textarea
+  - type: input
     id: sex
     attributes:
       label: Ferret's Sex
@@ -35,7 +35,8 @@ body:
       required: true
     attributes:
       label: What license do you want to use? (Commonly used is CC-BY-SA, but CC0 is the least restrictive)
-      options:
+      description: >
+        The following options are:
         - Public Domain ((CC0)[https://creativecommons.org/share-your-work/public-domain/cc0/]).
         - Attribution Required ((CC BY)[https://creativecommons.org/licenses/by/4.0/]).
         - Attribution + Share-Alike ((CC BY-SA)[https://creativecommons.org/licenses/by-sa/4.0/])
@@ -43,6 +44,14 @@ body:
         - Attribution + Non-Commercial ((CC BY-NC)[https://creativecommons.org/licenses/by-nc/4.0/])
         - Attribution + Non-Commercial + Share-Alike ((CC BY-NC-SA)[https://creativecommons.org/licenses/by-nc-sa/4.0/])
         - Attribution + Non-Commercial + No-Derivatives ((CC BY-NC-ND)[https://creativecommons.org/licenses/by-nc-nd/4.0/])
+      options:
+        - Public Domain (CC0)
+        - Attribution Required (CC BY)
+        - Attribution + Share-Alike (CC BY-SA)
+        - Attribution + No-Derivatives (CC BY-ND)
+        - Attribution + Non-Commercial (CC BY-NC)
+        - Attribution + Non-Commercial + Share-Alike (CC BY-NC-SA)
+        - Attribution + Non-Commercial + No-Derivatives (CC BY-NC-ND)
   - type: checkboxes
     id: terms
     attributes:
