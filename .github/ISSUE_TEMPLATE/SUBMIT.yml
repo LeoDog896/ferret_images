@@ -23,19 +23,20 @@ body:
       label: Ferret's Name
       description: If you don't mind, provide the name of the ferret
       placeholder: Name
-  - type: input
+  - type: dropdown
     id: sex
     attributes:
       label: Ferret's Sex
-      description: What is the sex of the ferret?
-      placeholder: Name
+      options:
+        - Male
+        - Female
   - type: dropdown
     id: license
     validations:
       required: true
     attributes:
       label: What license do you want to use? (Commonly used is CC-BY-SA, but CC0 is the least restrictive)
-      description: >
+      description: |
         The following options are:
         - Public Domain ((CC0)[https://creativecommons.org/share-your-work/public-domain/cc0/]).
         - Attribution Required ((CC BY)[https://creativecommons.org/licenses/by/4.0/]).
