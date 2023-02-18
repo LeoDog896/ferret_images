@@ -8,6 +8,7 @@ Collection of various ferret images for use with the [ferret_api](https://github
 - Ensure your photos are of a good quality and the ferret is easily identifiable in the photo
 - Ensure your photo features one ferret only (although additional ferrets can be in the background)
 - Photos must not represent any human, even human body parts; it's illegal in most states of the world
+- Photos must be yours or must have explicit consent; if the ferret isn't yours, make sure it falls under a Creative Commons license or you ask permission.
 
 ### How to contribute images
 
